@@ -1,0 +1,10 @@
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\bin\Debug\MemoPad.exe.config
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\bin\Debug\MemoPad.exe
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\bin\Debug\MemoPad.pdb
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\obj\Debug\MemoPad.Form1.resources
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\obj\Debug\MemoPad.Properties.Resources.resources
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\obj\Debug\Domain.csproj.GenerateResource.cache
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\obj\Debug\MemoPad.exe
+C:\Users\8cviv\Source\Repos\Notes\MemoPad\MemoPad\obj\Debug\MemoPad.pdb

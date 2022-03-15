@@ -68,19 +68,29 @@ namespace MemoPad
 
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
-            System.IO.StringReader Abrir = new System.IO.StringReader(openFileDialog1.FileName);    
-            richTextBox1.Text= Abrir.ReadToEnd();
-            Abrir.Close();
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Al files(.)  | .";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.Text = File.ReadAllText(open.FileName);
+            }
+
+
+
+           
         }
 
         private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            saveFileDialog1.ShowDialog();
-            System.IO.StreamWriter streamWriter = new System.IO.StreamWriter(saveFileDialog1.FileName);
-              
-            streamWriter.WriteLine(richTextBox1.Text);
-            streamWriter.Close();
+            SaveFileDialog save = new SaveFileDialog();
+            save.Filter = "text files(*.txt) | *.txt  ";
+            if (save.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SaveFile(save.FileName, RichTextBoxStreamType.PlainText);
+            }
+
+
+           
         }
 
         private void guardarComoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -111,6 +121,16 @@ namespace MemoPad
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
 
         }
     }
